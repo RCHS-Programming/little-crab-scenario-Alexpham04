@@ -7,7 +7,7 @@ public class Crab extends Actor
 {   
     public void act()
     {
-       
+       checkKeyPress();
         move();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
        lookforWorm();
     }
@@ -32,7 +32,7 @@ public class Crab extends Actor
     }
         public void checkKeyPress()
         {
-            if(Greemfoot.isKeyDown("left"))
+            if(Greenfoot.isKeyDown("left"))
              { 
                  turn(-4);
          
@@ -43,5 +43,6 @@ public class Crab extends Actor
             }
             
     
-}
+     } 
+    }
     
